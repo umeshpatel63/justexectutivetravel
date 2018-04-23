@@ -1,0 +1,572 @@
+    /* -- TYPOGRAHPHY -- */
+
+      @font-face {
+                                font-family: BN;
+                                src: url(BebasNeue.otf) format("truetype");
+                            }
+
+                            .navbar-default {
+                                background: #fff;
+                                opacity: ;
+                                border-bottom: 0.5px solid #b4b4b4;
+                                margin-bottom: 100px;
+                            }
+
+                            .navbar-default .navbar-collapse,
+                            .navbar-default .navbar-form {
+                                width: 100%;
+                                max-width: 750px;
+                                margin: 0 auto;
+                                float: right;
+                            }
+
+                            .navbar-brand {
+                                padding-left: 270px;
+                            }
+
+                            .nav.navbar-nav {
+                                padding-top: 10px;
+                            }
+
+                            .margins {
+                                width: 100%;
+                                max-width: 870px;
+                                margin: 0 auto;
+                                float: none;
+                            }
+
+                            .margins_service {
+                                width: 100%;
+                                max-width: 870px;
+                                margin: 0 auto;
+                                float: none;
+                            }
+
+                            .text_margins {
+                                width: 100%;
+                                max-width: 600px;
+                                margin: 0 auto;
+                                float: none;
+                            }
+
+                            .navbar-brand {
+                                width: 90px;
+                            }
+                            /* -- HOME -- */
+
+                            #home {
+                                background-image: url(homepage_img.png);
+                                background-attachment: fixed;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                min-height: 80vh;
+                                background-color: #354050;
+                            }
+
+                            h1 {
+                                font-family: BN, "Helvetica", sans-serif;
+                                padding-top: 200px;
+                                color: #f8f5f5;
+                                font-weight: 300;
+                                font-size: 5.5em;
+                                letter-spacing: 0.1em;
+                                /*        text-align: center;*/
+                                margin-bottom: 0px;
+                            }
+
+                            .brown {
+                                color: #a89462;
+                            }
+
+                            h2 {
+                                font-family: "Gill Sans", "Helvetica", sans-serif;
+                                color: #cccccc;
+                                font-weight: 200;
+                                font-size: 1.7em;
+                                letter-spacing: 0.1em;
+                                /*        text-align: center;*/
+                            }
+
+                            div.just.fadeIn.animated {
+                                -webkit-animation-delay: 2s;
+                                /* Safari 4.0 - 8.0 */
+                                animation-delay: 0.5s;
+                                animation-duration: 2.5s;
+                            }
+
+                            div.subtext.fadeIn.animated {
+                                -webkit-animation-delay: 2s;
+                                /* Safari 4.0 - 8.0 */
+                                animation-delay: 1.5s;
+                                animation-duration: 2s;
+                            }
+                            /* -- ABOUT -- */
+
+                            h3 {
+                                font-family: "Gill Sans", "Helvetica", sans-serif;
+                                font-size: 1.8em;
+                                letter-spacing: 0.1em;
+                                padding-top: 40px;
+                                color: #3a3939;
+                                text-align: center;
+                            }
+
+                            .text {
+                                padding-top: 10px;
+                                padding-bottom: 30px;
+                            }
+
+                            p {
+                                font-family: "Gill Sans", sans-serif;
+                                text-align: center;
+                                line-height: 1.7em;
+                                font-weight: 100;
+                                font-size: 1.2em;
+                                letter-spacing: 0.5px;
+                            }
+
+                            .roll-icon-box.icon i,
+                            .roll-icon-box.content h3 a:hover {
+                                        color: #a89462;
+                                    }
+
+                                    .roll-icon-box {
+                                        margin: 20px 20px 3px 20px;
+                                        padding-top: 30px;
+                                        padding-bottom: 30px;
+                                    }
+
+                                    .roll-icon-box:hover {
+                                        background-color: #ffffff;
+                                        box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.15);
+                                    }
+
+                                    .roll-icon-box .icon i {
+                                        font-size: 55px;
+                                    }
+
+                                    h4 {
+                                        font-family: "Gill Sans", "Helvetica", sans-serif;
+                                        color: #354050;
+                                        font-size: 1.3em;
+                                        letter-spacing: 0.1em;
+                                        text-align: center;
+                                        padding-top: 15px;
+                                    }
+
+                                    .roll-icon-box .icon {
+                                        text-align: center;
+                                        width: 70px;
+                                        height: 40px;
+                                        line-height: 75px;
+                                        margin: 0 auto 20px;
+                                        -webkit-border-radius: 50%;
+                                        -moz-border-radius: 50%;
+                                        -o-border-radius: 50%;
+                                        border-radius: 50%;
+                                        color: #a89462;
+                                    }
+
+                                    .roll-icon-box .icon:hover {
+                                        color: #354050;
+                                    }
+                                    /* -- SERVICES -- */
+
+                                    #services {
+                                        background-color: #f8f8f8;
+                                        min-height: 145vh;
+                                    }
+
+                                    .col-sm-4 {
+                                        flex-direction: column;
+                                        background-color: #fff;
+                                        background-clip: border-box;
+                                        border: 1px solid rgba(0, 0, 0, .125);
+                                        border-radius: .5rem;
+                                        padding-left: 0px;
+                                        padding-right: 0px;
+                                        width: 28%;
+                                        float: left;
+                                        margin: 20px;
+                                    }
+
+                                    .col-sm-4:hover {
+                                        box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15)
+                                    }
+
+                                    .p_service {
+                                        font-family: "Gill Sans", "Helvetica", sans-serif;
+                                        color: #a89462;
+                                        font-weight: 500;
+                                        font-size: 1.3em;
+                                        text-align: center;
+                                    }
+
+                                    .padding_text {
+                                        padding: 20px;
+                                    }
+                                    /* -- FLEET -- */
+                                    /* -- CONTACT -- */
+
+                                    #contact {
+                                        background-color: #f8f8f8;
+                                        min-height: 105vh;
+                                    }
+
+                                    .input-file {
+                                        opacity: 0.5;
+                                        width: 400px;
+                                        display: block;
+                                        margin: 0 auto;
+                                        padding: 10px;
+                                        margin-bottom: 30px;
+                                    }
+
+                                    .submit {
+                                        display: block;
+                                        margin: 0 auto;
+                                        margin-bottom: 30px;
+                                        text-align: center;
+                                        margin-top: 20px;
+                                    }
+
+                                    .send {
+                                        */ font-family: "BN", sans-serif;
+                                        letter-spacing: 5px;
+                                        font-weight: 700;
+                                        color: #fff;
+                                        background: #354050;
+                                        width: 150px;
+                                        padding: 13px 27px;
+                                        border: none;
+                                        display: block;
+                                        margin: 0 auto;
+                                        border-radius: 4px;
+                                        text-align: center;
+                                    }
+
+                                    .send:hover {
+                                        background: #7d6c5a;
+                                    }
+
+                                    .movedown {
+                                        padding-top: 50px;
+                                    }
+
+                                    .p_contact {
+                                        font-family: "Gill Sans", "Helvetica", sans-serif;
+                                        color: #a89462;
+                                        font-weight: 500;
+                                        font-size: 1.3em;
+                                    }
+                                    /* -- PARTNERSHIP -- */
+
+                                    #partnership {
+                                        background-image: url(quoteimg.png);
+                                        background-attachment: fixed;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        padding: 0px 250px;
+                                        min-height: 290px;
+                                    }
+
+                                    h5 {
+                                        text-align: center;
+                                        font-family: Gill Sans, Helvetica, sans-serif;
+                                        font-size: 0.8em;
+                                        color: #928c8c;
+                                        line-height: 1.4em;
+                                        opacity: 0.9;
+                                    }
+
+                                    h6 {
+                                        font-family: "Gill Sans", sans-serif;
+                                        text-align: center;
+                                        line-height: 30px;
+                                        font-weight: 100;
+                                        font-size: 1.05em;
+                                        letter-spacing: 0.5px;
+                                        color: #d1cece;
+                                    }
+
+                                    .roll-icon-box2 .icon i,
+                                    .roll-icon-box2 .content h3 a:hover {
+                                        color: #8c7966;
+                                    }
+
+                                    .roll-icon-box2 .icon i {
+                                        font-size: 20px;
+                                    }
+
+                                    .f a {
+                                        margin: 0 auto;
+                                        display: block;
+                                    }
+
+                                    .roll-icon-box2 .icon {
+                                        text-align: center;
+                                        width: 200px;
+                                        height: 30px;
+                                        line-height: 20px;
+                                        margin: 0 auto 0px;
+                                        -webkit-border-radius: 50%;
+                                        -moz-border-radius: 50%;
+                                        -o-border-radius: 50%;
+                                        border-radius: 50%;
+                                    }
+
+                                    a {
+                                        color: whitesmoke;
+                                    }
+                                    /* -- MEDIA QUERIES HOME SECTION -- */
+
+                                    @media screen and (max-width:815px) {
+                                        #home {
+                                            padding: 30px;
+                                            min-height: 100vh;
+                                        }
+                                        h1 {
+                                            font-size: 4.5em;
+                                        }
+                                        .margins {
+                                            max-width: 600px;
+                                        }
+                                    }
+
+                                    @media screen and (max-width:570px) {
+                                        h1 {
+                                            padding-top: 70px;
+                                        }
+
+                                    }
+
+                                    @media screen and (max-width:815px) {
+                                        .button {
+                                            padding-top: 100px;
+                                        }
+                                    }
+                                    /* -- MEDIA QUERIES ABOUT SECTION -- */
+
+                                    @media screen and (max-width:1160px) {
+                                        .text {
+                                            width: auto;
+                                            padding: 0px 20px;
+                                        }
+                                    }
+
+                                    @media screen and (max-width:1039px) {
+                                        #about {
+                                            height: auto;
+                                        }
+                                    }
+
+                                    @media screen and (max-width:900px) {
+                                        #about {
+                                            padding: 70px 120px;
+                                        }
+                                    }
+
+                                    @media screen and (max-width:600px) {
+                                        #about {
+                                            padding: 70px 80px;
+                                        }
+                                    }
+
+                                    @media screen and (max-width:500px) {
+                                        #about {
+                                            padding: 70px 40px;
+                                        }
+                                    }
+                                    /* -- MEDIA QUERIES SERVICE SECTION -- */
+
+                                    @media screen and (max-width:1065px) {
+                                        #services {
+                                            min-height: 1200px;
+                                        }
+                                        .navbar-brand{display: none;}
+
+
+                                          #contact {
+                                            min-height: 950px;
+                                        }
+                                    }
+
+                                   @media screen and (max-width:5200px) {
+                                        #services {
+                                            min-height: 90vh;
+                                        }
+                                      #contact {
+                                            min-height: 70vh;
+                                        }
+                                    }
+
+                                  @media screen and (max-width:2800px) {
+                                        #services {
+                                            min-height: 145vh;
+                                        }
+                                      #contact {
+                                            min-height: 105vh;
+                                        }
+                                    }
+
+                            
+
+
+                                    @media screen and (max-width:995px) {
+                                        #services {
+                                            min-height: 1300px;
+                                        }
+                                    }
+
+                                    @media screen and (max-width:780px) {
+                                        #services {
+                                            min-height: 1700px;
+                                        }
+                                        .margins_service {
+                                            max-width: 700px;
+                                        }
+                                        .service_section {
+                                            margin: auto;
+                                        }
+                                        #contact {
+                                            min-height: 900px;
+                                        }
+
+
+                                        #home {
+                                            min-height:60vh;
+                                        }
+                                        .navbar-brand{display: none;}
+
+
+
+
+                                    }
+
+                                    @media screen and (max-width:700px) {
+                                        #services {
+                                            min-height: 2600px;
+                                        }
+                                    }
+
+                                    @media screen and (max-width:600px) {
+                                        #services {
+                                            min-height: 2300px;
+                                        }
+                                          #home {
+                                            min-height:80vh;
+                                        }
+                                    }
+
+                                    @media screen and (max-width:550px) {
+                                        #services {
+                                            min-height: 2100px;
+                                        }
+
+                                        .navbar.navbar-default.navbar-fixed-top {
+                                            display: none;
+                                        }
+                                    }
+
+                                    @media screen and (max-width:450px) {
+                                        #services {
+                                            min-height: 3000px;
+                                        }
+                                        .col-sm-4 {
+                                            width: 80%;
+                                            display: block;
+                                        }
+                                        .margins_service {
+                                            width: 100%;
+                                            max-width: 870px;
+                                        }
+                                        /* -- MEDIA QUERIES FLEET SECTION -- */
+                                        @media screen and (max-width:1000px) {
+                                            #fleet {
+                                                padding: 70px 120px;
+                                            }
+                                        }
+                                        @media screen and (max-width:900px) {
+                                            #fleet {
+                                                padding: 70px 120px;
+                                            }
+                                        }
+                                        @media screen and (max-width:600px) {
+                                            #fleet {
+                                                padding: 70px 80px;
+                                            }
+                                        }
+                                        @media screen and (max-width:500px) {
+                                            #fleet {
+                                                padding: 70px 40px;
+                                            }
+                                        }
+                                        @media screen and (max-width:995px) {
+                                            #fleet {
+                                                min-height: 900px;
+                                            }
+                                        }
+                                        @media screen and (max-width:770px) {
+                                            #fleet {
+                                                min-height: 1500px;
+                                            }
+                                        }
+                                        @media screen and (max-width:440px) {
+                                            #fleet {
+                                                min-height: 500px;
+                                            }
+                                        }
+                                        /* -- MEDIA QUERIES CONTACT SECTION -- */
+                                        @media screen and (max-width:1000px) {
+                                            #contact {
+                                                padding: 70px 100px;
+                                            }
+                                        }
+                                        @media screen and (max-width:900px) {
+                                            #contact {
+                                                padding: 70px 80px;
+                                                min-height: 80vh;
+                                            }
+                                        }
+                                        @media screen and (max-width:600px) {
+                                            #contact {
+                                                padding: 70px 40px;
+                                                min-height: 80vh;
+                                            }
+                                        }
+                                        @media screen and (max-width:500px) {
+                                            #contact {
+                                                padding: 70px 50px;
+                                            }
+                                            .input-file {
+                                                width: 300px;
+                                            }
+                                        }
+                                        /* -- MEDIA QUERIES PARTNESHIP SECTION -- */
+                                        @media screen and (max-width:1000px) {
+                                            #partnership {
+                                                padding: 70px 120px;
+                                            }
+                                        }
+                                        @media screen and (max-width:900px) {
+                                            #partnership {
+                                                padding: 70px 120px;
+                                            }
+                                        }
+                                        @media screen and (max-width:600px) {
+                                            #partnership {
+                                                padding: 70px 80px;
+                                            }
+                                        }
+                                        @media screen and (max-width:500px) {
+                                            #partnership {
+                                                padding: 70px 40px;
+                                            }
+                                        }
+                                        @media screen and (max-width:400px) {
+                                            .form-group {
+                                                width: 300px
+                                            }
+                                        }
