@@ -205,6 +205,7 @@
 
                                     .padding_text {
                                         padding: 20px;
+                                        height: 250px;
                                     }
                                     /* -- FLEET -- */
                                     /* -- CONTACT -- */
@@ -411,6 +412,12 @@
                                         }
                                     }
 
+ @media screen and (max-width:1024px) {
+                                        #services {
+                                            min-height: 90vh;
+                                        }
+}
+
                             
 
 
@@ -432,6 +439,10 @@
                                         }
                                         #contact {
                                             min-height: 900px;
+                                        }
+                                        
+                                        .padding_text {
+                                            height:300px;
                                         }
 
 
@@ -468,6 +479,9 @@
                                         .navbar.navbar-default.navbar-fixed-top {
                                             display: none;
                                         }
+                                        .padding_text {
+                                            height:200px;
+                                        }
                                     }
 
                                     @media screen and (max-width:450px) {
@@ -482,6 +496,10 @@
                                             width: 100%;
                                             max-width: 870px;
                                         }
+                                        
+}
+                                        
+                                        
                                         /* -- MEDIA QUERIES FLEET SECTION -- */
                                         @media screen and (max-width:1000px) {
                                             #fleet {
@@ -510,13 +528,15 @@
                                         }
                                         @media screen and (max-width:770px) {
                                             #fleet {
-                                                min-height: 1500px;
+                                                min-height: 600px;
                                             }
                                         }
                                         @media screen and (max-width:440px) {
                                             #fleet {
                                                 min-height: 500px;
                                             }
+                                            
+                                          
                                         }
                                         /* -- MEDIA QUERIES CONTACT SECTION -- */
                                         @media screen and (max-width:1000px) {
